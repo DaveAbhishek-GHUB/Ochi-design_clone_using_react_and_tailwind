@@ -1,9 +1,12 @@
 import React from 'react'
 import './index.css'
+import Navbar from './components/navbar'
 
 function App() {
   return (
-    <div>App</div>
+    <div className="w-full h-screen">
+      <Navbar/>
+    </div>
   )
 }
 
