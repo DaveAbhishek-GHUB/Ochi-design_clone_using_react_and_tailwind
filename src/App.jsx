@@ -5,6 +5,7 @@ import Navbar from './components/navbar'
 import LandingPage from './components/landingpage'
 import Marqee from './components/marqee'
 import About from './components/about'
+import Eyes from './components/eyes'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <LandingPage/>
       <Marqee/>
       <About/>
+      <Eyes/>
     </div>
   )
 }
