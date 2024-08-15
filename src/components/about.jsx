@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="w-full py-20 px-5 bg-[#CDEA67] rounded-t-2xl">
         <div>
-            <h1 className='text-[3.5vw] font-[Neue_Montreal] leading-[4vw]'>Ochi is a strategic presentation agency for forward-thinking businesses that need to raise funds, sell prod­ucts, ex­plain com­plex ideas, and hire great peo­ple.</h1>
+            <h1 className='text-[3.5vw] font-["Neue_Montreal"] leading-[4vw]'>Ochi is a strategic presentation agency for forward-thinking businesses that need to raise funds, sell prod­ucts, ex­plain com­plex ideas, and hire great peo­ple.</h1>
         </div>
         <div className='w-full py-10 px-5 flex my-12  border-black border-y-2'>
             <div className="section-1 w-[50%]">
@@ -26,7 +26,7 @@ function About() {
         </div>
         <div className="w-full p-5 flex">
             <div className="text-section w-[50%]">
-                <h1 className='text-[3vw] font-[Neue_Montreal]'>Our approach:</h1>
+                <h1 className='text-[3vw] font-["Neue_Montreal"]'>Our approach:</h1>
                 <a href="" className='py-[1vw] px-[2vw] w-[12vw] bg-[#212121] text-white rounded-full flex justify-center items-center gap-5'>
                     <p className='uppercase text-[1vw]'>read more</p>
                     <div className="whtie-dot w-[0.5vw] h-[0.5vw] bg-white rounded-full"></div>

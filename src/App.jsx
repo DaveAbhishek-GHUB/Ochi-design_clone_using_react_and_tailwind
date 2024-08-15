@@ -6,6 +6,9 @@ import LandingPage from './components/landingpage'
 import Marqee from './components/marqee'
 import About from './components/about'
 import Eyes from './components/eyes'
+import Featured from './components/Featured'
+import Clientreviews from './components/Clientreviews'
+import Cards from './components/cards'
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <Marqee/>
       <About/>
       <Eyes/>
+      <Featured/>
+      <Clientreviews/>
+      <Cards/>
     </div>
   )
 }
