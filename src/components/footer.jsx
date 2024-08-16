@@ -1,11 +1,12 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React from 'react'
 
-function Navbar() {
+function Footer() {
   return (
-    <div className="main w-full flex justify-center">
-    <div className=" fixed z-[999] w-[80vw] px-10 py-2 font-['Neue_Montreal'] flex justify-between items-center bg-opacity-30 backdrop-blur-md rounded-lg">
-      <div className="logo">
+    <div className="w-full h-screen flex">
+        <div className="eye-opening w-1/2 relative p-10">
+            <h1 className='text-[9vw] leading-[8vw] font-bold uppercase'>eye-opening</h1>
+            <div className="logo absolute bottom-8">
         <svg
           width="72"
           height="30"
@@ -33,27 +34,51 @@ function Navbar() {
             d="M52.4097 10.1387C51.2512 10.1119 50.1066 10.3947 49.0941 10.958C48.0816 11.5212 47.2379 12.3445 46.6501 13.3427V0.172852H42.293V29.4688H46.6501C46.6501 29.1721 46.6501 18.7816 46.6501 18.7816C46.6501 15.6946 47.8619 13.4352 50.8084 13.4352C54.6046 13.4352 54.6209 17.4178 54.6209 19.6962C54.6209 22.9165 54.6209 25.5189 54.6209 28.7393V29.4987H59.0271C59.0271 29.3708 59.0488 29.2728 59.0488 29.1721C59.0488 25.5108 59.0951 21.8522 59.0325 18.1909C58.9916 15.6538 58.5015 10.1387 52.4097 10.1387Z"
             fill="currentColor"
           ></path>
-        </svg>
-      </div>
-      <div className="links flex gap-5 capitalize">
-        {/* We use a trick called 'map' to make many links from our list */}
-        {["Services", "Our works", "About us", "Insights", "contant Us"].map(
-          (item, index) => (
-            // We must put () around what we want to show
-            // We also need to say 'return' to send back what we made
-            // 'key' helps React know which link is which
-            <a
-              key={index}
-              className={`text-sm font-light ${index === 4 && "ml-52"}`}
-            >
-              {item}
-            </a>
-          )
-        )}
-      </div>
+            </svg></div>
+        </div>
+        <div className="presentations w-1/2">
+            <div className="presentations-heading p-10">
+                <h1 className='text-[6vw] leading-[8vw] font-bold uppercase tracking-tighter'>presentations</h1>
+            </div>
+            <div className="links p-10 flex">
+                <div className="social">
+                    <div className="social-medialinks flex flex-col mb-5 text-[1vw]">
+                        <span className='mb-5'>S:</span>
+                        <a href="">Instagram</a>
+                        <a href="">Behance</a>
+                        <a href="">Facebook</a>
+                        <a href="">LinkedIn</a>
+                    </div>
+                    <div className="Address flex flex-col mb-5 text-[1vw]">
+                        <span className='mb-5'>L:</span>
+                        <p>202-1965 W 4th Ave</p>
+                        <p>Vancouver, Canada</p>
+                        <p className='mt-2'>30 Chukarina St</p>
+                        <p>Lviv, Ukraine</p>
+                    </div>
+                    <div className="email flex flex-col text-[1vw] mb-5">
+                        <span className='mb-2'>E:</span>
+                        <p>hello@ochi.design</p>
+                    </div>
+                    <div className="copyright text-[1.5vw]">
+                        <p>© ochi design 2024. Legal Terms</p>
+                    </div>
+                </div>
+                <div className="pages p-10">
+                <div className="page-links flex flex-col mb-5 text-[1vw]">
+                        <span className='mb-5'>M:</span>
+                        <a href="">Home</a>
+                        <a href="">Services</a>
+                        <a href="">Our work</a>
+                        <a href="">About us</a>
+                        <a href="">Insights</a>
+                        <a href="">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    </div>
-  );
+  )
 }
 
-export default Navbar;
+export default Footer

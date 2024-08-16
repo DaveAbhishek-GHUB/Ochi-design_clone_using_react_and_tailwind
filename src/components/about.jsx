@@ -1,8 +1,9 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 
 function About() {
   return (
-    <div className="w-full py-20 px-5 bg-[#CDEA67] rounded-t-2xl">
+    <div className="w-full py-20 px-5 bg-[#CDEA67] rounded-t-2xl" data-scroll data-scroll-speed="-.1.5">
         <div>
             <h1 className='text-[3.5vw] font-["Neue_Montreal"] leading-[4vw]'>Ochi is a strategic presentation agency for forward-thinking businesses that need to raise funds, sell prod­ucts, ex­plain com­plex ideas, and hire great peo­ple.</h1>
         </div>

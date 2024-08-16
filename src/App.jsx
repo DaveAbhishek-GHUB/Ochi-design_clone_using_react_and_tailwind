@@ -9,8 +9,12 @@ import Eyes from './components/eyes'
 import Featured from './components/Featured'
 import Clientreviews from './components/Clientreviews'
 import Cards from './components/cards'
+import Footer from './components/footer'
+import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
+  const locomotiveScroll = new LocomotiveScroll();
+
   return (
     <div className="w-full h-screen">
       <Navbar/>
@@ -21,6 +25,7 @@ function App() {
       <Featured/>
       <Clientreviews/>
       <Cards/>
+      <Footer/>
     </div>
   )
 }

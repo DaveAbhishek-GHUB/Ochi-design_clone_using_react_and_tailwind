@@ -1,19 +1,20 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable no-unused-vars */
+import { motion } from "framer-motion";
 import React from "react";
 import { FaArrowDownLong } from "react-icons/fa6";
 
 function LandingPage() {
   return (
-    <div className="w-full h-screen pt-1">
+    <div className="w-full h-screen pt-1" data-scroll data-scroll-speed="-.3">
       <div className="textStructure mt-32 px-16">
         {["we create", "eye opening", "presentations"].map((item, index) => {
           return (
             <div className="masker font-[Test_Founders_Grotesk_X-Condensed]">
               <div className="flex items-center">
-              {index === 1 && (<div className="w-[8vw] h-[5vw] bg-red-300 rounded-md mr-1">
+              {index === 1 && (<motion.div initial={{width: 0}} animate={{width: "8vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration: 1}} className="w-[8vw] h-[5vw] bg-red-300 rounded-md mr-1">
                 <img className="w-full h-full rounded-md" src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg" alt="Description of image" />
-              </div>)}
+              </motion.div>)}
               <h1 className="text-[6vw] leading-none uppercase tracking-tighter font-extrabold">
                 {item}
               </h1>
