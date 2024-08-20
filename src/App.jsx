@@ -7,7 +7,7 @@ import Marqee from './components/marqee'
 import About from './components/about'
 import Eyes from './components/eyes'
 import Featured from './components/featured'
-import Clientreviews from './components/Clientreviews'
+import Clientreviews from './components/clientreviews'
 import Cards from './components/cards'
 import Footer from './components/footer'
 import LocomotiveScroll from 'locomotive-scroll';
