@@ -17,7 +17,8 @@ function App() {
 
   return (
     <div className="w-full h-screen">
-      <Navbar/>
+      <h1>We well come soon</h1>
+      {/* <Navbar/>
       <LandingPage/>
       <Marqee/>
       <About/>
@@ -25,7 +26,7 @@ function App() {
       <Featured/>
       <Clientreviews/>
       <Cards/>
-      <Footer/>
+      <Footer/> */}
     </div>
   )
 }
