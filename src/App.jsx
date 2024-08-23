@@ -19,13 +19,13 @@ function App() {
     <div className="w-full h-screen">
       <h1>We well come soon</h1>
       <Navbar/>
-      {/* <LandingPage/>
+      <LandingPage/>
       <Marqee/>
       <About/>
       <Eyes/>
       <Featured/>
       <Clientreviews/>
-      <Cards/> */}
+      <Cards/>
       <Footer/>
     </div>
   )
